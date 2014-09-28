@@ -27,6 +27,7 @@ imgFile  = '/tmp/imagen.png'
 parser = optparse.OptionParser()
 (options, args) = parser.parse_args()
 
+
 if len(args) > 1:
 	imgFile  = args[0]
 	destaddr = args[1]
