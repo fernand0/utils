@@ -1,10 +1,14 @@
 #
-# Config file for camara.py
+# Config sample file for camara.py
 #
-ADDRESS = 'reflexioneseirreflexiones@gmail.com'
-FROMADD = 'ftricas@amon.cps.unizar.com'
-TOADDRS = 'reflexioneseirreflexiones@gmail.com'
-SUBJECT = 'Imagen'
-SMTPSRV = 'smtp.gmail.com:587'
-LOGINID = 'reflexioneseirreflexiones'
-LOGINPW = 'exito1gei'
+# Copy this file to mailConfig.py and put adequate values
+#
+# Copiar este fichero a mailConfig.py y poner valores adecuados
+#
+ADDRESS = 'default to address'
+FROMADD = 'default from addres'
+TOADDRS = 'default backup address'
+SUBJECT = 'Imagen' # Change for another Subject
+SMTPSRV = 'SMTP server'
+LOGINID = 'Login identifier for smtp'
+LOGINPW = 'Password for smtp'
